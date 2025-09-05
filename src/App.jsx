@@ -19,7 +19,7 @@ function App() {
     setSpeaking(true)
     setResponse(false)
   recognition.start()
-      }}>Click here <CiMicrophoneOn /></button>
+      }}>Lets Discuss <CiMicrophoneOn /></button>
     :
     <div className='response'>
       {!response?
