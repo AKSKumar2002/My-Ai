@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='main'>
       <img src={va} alt="" id="shifra"/>
-      <span>I'm Ela,Your Advanced Virtual Assistant</span>
+      <span>I'm Ela, Your Advanced VA Assistant</span>
       {!speaking?
       <button onClick={()=>{
     setPrompt("listening...")
